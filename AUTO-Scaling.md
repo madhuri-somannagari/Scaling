@@ -7,7 +7,9 @@ Redis – memory store
 Rabbitmq – cloudamqp
 Mysql – Cloud SQL
 
+
 ![Architecture](./Architecture.png)
+
 
 ### Load Balancing
 
@@ -22,3 +24,4 @@ api.hdiplatform.in → [LB_STATIC_IP]
 LB forwards to MIG → MIG distributes traffic to VMs (via Nginx/Gunicorn).
 
 ![Load-Balancing](./Load-balancing.png)
+
